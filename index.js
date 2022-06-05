@@ -33,14 +33,14 @@ console.log(sortAscending(names));
 console.log(sortDescending(names));
 
 // ! JANGAN DIMODIFIKASI
-// (function main() {
-//   console.log(sorter?.(names, sortAscending)?.join("\n"));
-//   console.log(sorter?.(names, sortDescending)?.join("\n"));
-// })();
+(function main() {
+    console.log(sorter?.(names, sortAscending)?.join("\n"));
+    console.log(sorter?.(names, sortDescending)?.join("\n"));
+})();
 
-// module.exports = {
-//   sorter,
-//   sortAscending,
-//   sortDescending,
-//   names,
-// };
+module.exports = {
+    sorter,
+    sortAscending,
+    sortDescending,
+    names,
+};
